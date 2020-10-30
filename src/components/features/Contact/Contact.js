@@ -1,5 +1,5 @@
 import React from 'react';
-import {visibleContact} from '../../../utils/visibleContact';
+import {VisibleContact} from '../../../utils/VisibleContact';
 
 class Contact extends React.Component {
 
@@ -13,7 +13,7 @@ class Contact extends React.Component {
     const actualHour = this.pickTime();
     
     return (
-      visibleContact(actualHour)
+      VisibleContact(actualHour)
     );
   }
 }
