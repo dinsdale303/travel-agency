@@ -34,9 +34,6 @@ const sendOrder = (options, tripCost, tripId, tripCountry) => {
     .then(function (response) {
       return response.json();
     })
-    .then(function (parsedResponse) {
-      console.log('parsedResponse', parsedResponse);
-    });
 };
 
 const isValid = (options, tripCost, tripId, tripCountry) => {
